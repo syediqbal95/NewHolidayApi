@@ -15,7 +15,7 @@ import holiday.HolidayApiClientTemp;
 
 
 
-public class TillMonth {
+public class TillMonthTest {
     @Test
 	public void test() throws JsonParseException, JsonMappingException, IOException{
 		HolidayApiClientTemp client = new HolidayApiClientTemp("32256183-b02a-41d9-9b0a-53d63d8b49e9");

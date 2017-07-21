@@ -1,7 +1,5 @@
 package mobilelive.holidayAPI;
 
-import static org.junit.Assert.assertEquals;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -15,20 +13,30 @@ import holiday.HolidayApiClientTemp;
 
 
 
-public class TillDate {
+public class ContainsTest {
+
 	@Test
 	public void test() throws JsonParseException, JsonMappingException, IOException {
-		HolidayApiClientTemp client = new HolidayApiClientTemp("32256183-b02a-41d9-9b0a-53d63d8b49e9");
-		Object holidayJson = client.getHolidays("PK", 2016, 12, 01);
+		HolidayApiClientTemp clientTemp = new HolidayApiClientTemp("32256183-b02a-41d9-9b0a-53d63d8b49e9");
+		Object holidayJson = clientTemp.getHolidays("PK", 2016,12,-1);
+		
 		@SuppressWarnings("unchecked")
 		List<Holiday> holidays = (List<Holiday>)holidayJson;
 		StringBuilder sb = new StringBuilder();
-		for (Holiday holiday : holidays) {
+		for(Holiday holiday : holidays){
 			sb.append(holiday.toString());
 		}
 		String result = sb.toString();
-		String expect = "\nname: Birthday of Nabi" + "\ndate: 2016-12-01" + "\nobserved: 2016-12-01" + "\npublic: true";
-		assertEquals(expect, result);
-
+		String name =  "name";
+		String observed =  "observed";
+		String date =  "date";
+		String Public =  "public";
+		
+		assert(result.contains(name));
+		assert(result.contains(observed));
+		assert(result.contains(date));
+		assert(result.contains(Public));
+	
 	}
+
 }

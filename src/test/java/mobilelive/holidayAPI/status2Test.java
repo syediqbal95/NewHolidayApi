@@ -13,7 +13,7 @@ import holiday.HolidayApiClientTemp;
 
 
 
-public class statusTest2 {
+public class status2Test {
 
 	@Test
 	public void test() throws JsonParseException, JsonMappingException, IOException {

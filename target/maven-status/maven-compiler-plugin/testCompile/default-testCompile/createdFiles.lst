@@ -1,10 +1,8 @@
-mobilelive/holidayAPI/AllTests.class
-mobilelive/holidayAPI/statusTest3.class
-mobilelive/holidayAPI/TillMonth.class
-mobilelive/holidayAPI/statusTest2.class
-mobilelive/holidayAPI/AppTest.class
-mobilelive/holidayAPI/statusTest1.class
-mobilelive/holidayAPI/Contains.class
-mobilelive/holidayAPI/Error.class
+mobilelive/holidayAPI/TillMonthTest.class
+mobilelive/holidayAPI/status2Test.class
+mobilelive/holidayAPI/status3Test.class
+mobilelive/holidayAPI/TillDateTest.class
+mobilelive/holidayAPI/ContainsTest.class
+mobilelive/holidayAPI/ErrorTest.class
+mobilelive/holidayAPI/status1Test.class
 mobilelive/holidayAPI/statusTest.class
-mobilelive/holidayAPI/TillDate.class

@@ -16,7 +16,7 @@ import holiday.HolidayApiClientTemp;
 
 
 
-public class Error {
+public class ErrorTest {
 	
 	HolidayApiClientTemp holiday;
 	Object holidayJson;
