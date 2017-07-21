@@ -53,7 +53,7 @@
                 <archive>
                     <index>true</index>
                     <manifest>
-                        <mainClass>holiday/HolidayMain2.java</mainClass>
+                        <mainClass>holiday/HolidayMain2</mainClass>
                     </manifest>
                 </archive>
             </configuration>
