@@ -19,7 +19,7 @@ import custom.HolidayJson2;
 /**
  * Created by Jason on 29/06/2017.
  */
-public class HolidayApiClientTemp implements Temporary {
+public class HolidayApiClientTemp  {
 
 	private String apiKey=null;
 

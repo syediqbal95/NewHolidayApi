@@ -4,5 +4,6 @@ mobilelive/holidayAPI/status3Test.class
 mobilelive/holidayAPI/TillDateTest.class
 mobilelive/holidayAPI/ContainsTest.class
 mobilelive/holidayAPI/ErrorTest.class
+mobilelive/holidayAPI/AllTest.class
 mobilelive/holidayAPI/status1Test.class
 mobilelive/holidayAPI/statusTest.class
